@@ -31,24 +31,6 @@ namespace eportfolioAssignment {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvParentName;
         
         /// <summary>
-        /// ddlParentTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlParentTitle;
-        
-        /// <summary>
-        /// rfvParentTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvParentTitle;
-        
-        /// <summary>
         /// txtParentEmail control.
         /// </summary>
         /// <remarks>
@@ -65,6 +47,15 @@ namespace eportfolioAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvParentEmail;
+        
+        /// <summary>
+        /// revParentEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revParentEmail;
         
         /// <summary>
         /// txtParentPassword control.

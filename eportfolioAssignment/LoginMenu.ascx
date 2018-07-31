@@ -30,6 +30,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="Login.aspx">Log In</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="CreateParent.aspx">Create Parent Account</a>
+            </li>
         </ul>
     </div>
 </nav>

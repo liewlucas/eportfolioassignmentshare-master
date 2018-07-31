@@ -11,7 +11,7 @@ namespace eportfolioAssignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            WelcomeMessage.Text = Session["ParentName"].ToString() +"</br>"+ " ParentID : " + Session["ParentID"].ToString();
         }
     }
 }

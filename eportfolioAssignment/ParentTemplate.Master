@@ -17,12 +17,7 @@
     <script src="Scripts/bootstrap.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <style type="text/css">
-        .auto-style1 {
-            width: 200px;
-        }
-    </style>
-</head>
+    </head>
 <body>
     <form id="form1" runat="server">
         <!-- Bootstrap container, centralize the container between margins -->

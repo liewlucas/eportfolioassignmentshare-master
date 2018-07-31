@@ -36,5 +36,6 @@
             </td>
         </tr>
     </table>
-    <asp:Button ID="loginButton" runat="server" Text="Login" />
+    <asp:Button ID="loginButton" runat="server" Text="Login" OnClick="loginButton_Click" />
+    <asp:Label ID="LoginMessage" runat="server"></asp:Label>
 </asp:Content>

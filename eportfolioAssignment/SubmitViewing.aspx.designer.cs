@@ -22,15 +22,6 @@ namespace eportfolioAssignment {
         protected global::System.Web.UI.WebControls.Label lblWelcomeMessage;
         
         /// <summary>
-        /// ddlPDesignation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlPDesignation;
-        
-        /// <summary>
         /// txtPName control.
         /// </summary>
         /// <remarks>
@@ -58,24 +49,6 @@ namespace eportfolioAssignment {
         protected global::System.Web.UI.WebControls.TextBox txtChildStdID;
         
         /// <summary>
-        /// ddlChildCourse control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlChildCourse;
-        
-        /// <summary>
-        /// ddlChildClass control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlChildClass;
-        
-        /// <summary>
         /// btnSubmitViewingRequest control.
         /// </summary>
         /// <remarks>
@@ -83,5 +56,14 @@ namespace eportfolioAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmitViewingRequest;
+        
+        /// <summary>
+        /// lblConfirmation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblConfirmation;
     }
 }

@@ -6,6 +6,6 @@
         Beautiful Parent Master Page (BLQZ)</p>
     <p>
         Welcome,
-        <asp:Label ID="parentMasterParentID" runat="server" Text="ParentID"></asp:Label>
+        <asp:Label ID="WelcomeMessage" runat="server"></asp:Label>
     </p>
 </asp:Content>

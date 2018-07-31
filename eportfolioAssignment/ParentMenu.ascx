@@ -16,9 +16,6 @@
         <!-- Links that are aligned to the left, mr-auto: right margin auto-adjusted -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="CreateParent.aspx">Create Parent Account</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="SubmitViewing.aspx">Submit Viewing Request</a>
             </li>
             <li class="nav-item">

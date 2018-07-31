@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style2 {
-            width: 301px;
+            width: 771px;
         }
     </style>
 </asp:Content>
@@ -10,39 +10,52 @@
     <table cellpadding="0" cellspacing="0" class="w-100">
         <tr>
             <td class="auto-style2">
-                <asp:Image ID="Image1" runat="server" ImageUrl="Images/person.jpg" />
+                <asp:GridView ID="gvStudent" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" CellPadding="3" GridLines="None" CellSpacing="1" Width="1210px">
+                    <Columns>
+                        <asp:BoundField DataField="StudentID" HeaderText="Student ID" />
+                        <asp:BoundField DataField="StudentName" HeaderText="Student Name" />
+                        <asp:BoundField DataField="Course" HeaderText="Student Course" />
+                        <asp:BoundField DataField="Photo" HeaderText="Student Image" />
+                        <asp:BoundField DataField="Description" HeaderText="Student Description" SortExpression="description" ItemStyle-CssClass="Shorter" >
+<ItemStyle CssClass="Shorter"></ItemStyle>
+                        </asp:BoundField>
+                        <asp:BoundField DataField="Achievement" HeaderText="Student Achievement" />
+                        <asp:BoundField DataField="ExternalLink" HeaderText="Student Link" />
+                    </Columns>
+                    <FooterStyle BackColor="#C6C3C6" ForeColor="Black" />
+                    <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#E7E7FF" />
+                    <PagerStyle BackColor="#C6C3C6" ForeColor="Black" HorizontalAlign="Right" />
+                    <RowStyle BackColor="#DEDFDE" ForeColor="Black" />
+                    <SelectedRowStyle BackColor="#9471DE" Font-Bold="True" ForeColor="White" />
+                    <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                    <SortedAscendingHeaderStyle BackColor="#594B9C" />
+                    <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                    <SortedDescendingHeaderStyle BackColor="#33276A" />
+                </asp:GridView>
             </td>
             <td>
                 <table cellpadding="0" cellspacing="0" class="w-100">
                     <tr>
-                        <td>Welcome! Here is the ePortfolio Created by Your Child ! </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>Student Name : <asp:Label ID="lblStudentName" runat="server"></asp:Label>
-                        </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>Student ID :
-                            <asp:Label ID="lblStudentID" runat="server"></asp:Label>
-                        </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>School :
-                            <asp:Label ID="lblStudentSch" runat="server"></asp:Label>
-                        </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>Course :
-                            <asp:Label ID="lblStudentCourse" runat="server"></asp:Label>
-                        </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>Description : </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblStudentDescription" runat="server"></asp:Label>
-                        </td>
+                            &nbsp;</td>
                     </tr>
                 </table>
             </td>

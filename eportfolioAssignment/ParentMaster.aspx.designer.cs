@@ -13,12 +13,12 @@ namespace eportfolioAssignment {
     public partial class ParentMaster {
         
         /// <summary>
-        /// parentMasterParentID control.
+        /// WelcomeMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label parentMasterParentID;
+        protected global::System.Web.UI.WebControls.Label WelcomeMessage;
     }
 }

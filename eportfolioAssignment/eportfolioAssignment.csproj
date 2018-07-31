@@ -241,7 +241,9 @@
     <Content Include="ViewChild.aspx" />
     <Content Include="ViewRepliesParent.aspx" />
     <Content Include="ViewReplyMentor.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
     <Content Include="Scripts\umd\popper-utils.min.js.map" />
@@ -323,6 +325,10 @@
     <Compile Include="ChangePassword.aspx.designer.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Parent.cs" />
+    <Compile Include="Classes\ParentMessage.cs" />
+    <Compile Include="Classes\ParentReply.cs" />
+    <Compile Include="Classes\ViewingRequest.cs" />
     <Compile Include="CreateParent.aspx.cs">
       <DependentUpon>CreateParent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
